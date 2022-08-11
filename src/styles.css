@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1vh 1vh;
+  margin-top: 10vh;
+  height: 78vh;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  background-color: rgb(28, 30, 40);
+}
+.header {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(127, 255, 212);
+  height: 10vh;
+  width: 100%;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(127, 255, 212);
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+.numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  width: 7.18%;
+  height: 5vh;
+  color: white;
+  transition: all 1s;
+  overflow: hidden;
+}
+.numbersfiltered {
+  opacity: 0;
+}
+.button {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  margin: 1px;
+  border-radius: 3px;
+  border-color: black;
+  height: 8vh;
+  background: black;
+  color: white;
+  box-shadow: 1px 1px 1px black;
+}
+.a {
+  background: rgb(65, 188, 156);
+}
+.b {
+  background: rgb(191, 11, 27);
+}
+.b:active {
+  background: rgb(91, 11, 17);
+}
+.a:active {
+  background: rgb(35, 108, 106);
+}
